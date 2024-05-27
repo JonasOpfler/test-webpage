@@ -21,7 +21,7 @@ const Analytics = () => {
                     numquam modi qui asperiores. 
                     Quas, voluptates?
                 </p>
-                <button className='text-primary w-[200px] rounded-md 
+                <button className='text-white bg-primary w-[200px] rounded-md 
                 font-medium my-6 mx-auto py-3 md:mx-0 bg-black hover:scale-105 duration-500'>
                 Get Starded
                 </button>

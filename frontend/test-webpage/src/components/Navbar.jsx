@@ -18,7 +18,7 @@ const Navbar = () => {
         
         <div className='flex justify-between items-center h-24 max-w-[1240px] m-auto px-4 text-white'>
             {/* PC */}
-            <h1 className='w-full text-3xl font-bold text-primary'>REACT.</h1>
+            <h1 className='w-full text-3xl font-bold text-primary'>DATA</h1>
             <ul className='hidden md:flex uppercase'>
                 <li
                     className='p-4 cursor-pointer text-primary font-bold'
@@ -64,7 +64,7 @@ const Navbar = () => {
                         : `ease-out-in duration-500 fixed left-[-100%]`
                 }
             >
-                <h1 className='w-full text-3xl font-bold text-primary ml-5'>REACT.</h1>
+                <h1 className='w-full text-3xl font-bold text-primary ml-5'>DATA</h1>
                 <ul className='pt-4 uppercase'>
                     <li
                         className='p-4 border-b border-gray-600 cursor-pointer hover:text-primary font-bold'
