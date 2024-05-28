@@ -74,8 +74,16 @@ const Footer = () => {
 
 
         </div>
+        
+        <div className='flex mx-auto margin-center'>
+            <p className=''>
+                    Made with <span className='text-red-500 hover:text-primary text-1xl'>♥</span> by Sky
+            </p>
+        </div>
+            
 
     </div>
+    
   )
 }
 
