@@ -18,7 +18,7 @@ const Navbar = () => {
         
         <div className='flex justify-between items-center h-24 max-w-[1240px] m-auto px-4 text-white'>
             {/* PC */}
-            <h1 className='w-full text-3xl font-bold text-primary'>DATA</h1>
+            <h1 className='w-full text-3xl font-bold text-primary'><span className='hover:text-white hover:cursor-pointer'>DATA</span></h1>
             <ul className='hidden md:flex uppercase'>
                 <li
                     className='p-4 cursor-pointer text-primary font-bold'

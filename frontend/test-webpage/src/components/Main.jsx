@@ -38,22 +38,22 @@ const Main = () => {
                 typeSpeed={120}  backSpeed={140} loop className='md:text-5xl sm:text-4xl 
                 text-xl font-bold md:pl-4 pl-2'/>
             </div>
-            <p className='md:text-2xl text-xl font-normal text-gray-400'>Monitor your data analytics to increase revenue for
+            <p className='md:text-2xl text-xl font-normal text-gray-400 '>Monitor your data analytics to increase revenue for
             <span className='text-primary'> BTB</span>, <span className='text-primary'>BTC</span>, & <span className='text-primary'>SASS</span> platforms.
             </p>
             <button className='bg-primary w-[200px] rounded-md 
-            font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500'>
+            font-medium my-6 mx-auto py-3 text-white hover:scale-105 hover:cursor-pointer duration-500'>
               Get Starded</button>
 
               <div className='flex justify-center my-6 '>
-                <FaFacebookSquare size={40} className=' hover:scale-105 duration-200 hover:text-primary' />
-                <FaInstagramSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary' />
-                <FaTwitterSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary' />
-                <FaGitSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary' />
-                <FaDribbbleSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary' />
+                <FaFacebookSquare size={40} className=' hover:scale-105 duration-200 hover:text-primary hover:cursor-pointer' />
+                <FaInstagramSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary hover:cursor-pointer' />
+                <FaTwitterSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary hover:cursor-pointer' />
+                <FaGitSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary hover:cursor-pointer' />
+                <FaDribbbleSquare size={40} className='ml-5 hover:scale-105 duration-200 hover:text-primary hover:cursor-pointer' />
             </div>
             <div className='flex justify-center my-6 '>
-              <CgChevronDoubleDown size={60} className='hover:movedown-15 duration-300 hover:text-primary'
+              <CgChevronDoubleDown size={60} className='hover:movedown-15 duration-300 hover:text-primary hover:cursor-pointer'
               onClick={() => {
                 handleNav();
                 handleClickScroll('section-2');

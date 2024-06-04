@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 
-    lg:grid-cols-3 gap-8 text-gray-300'>
+    lg:grid-cols-3 gap-8 text-gray-300 bg-gray-900'>
         <div className='max-w-[500px]'>
             <h1 className='w-full text-3xl 
             font-bold text-primary'>REACT.</h1>

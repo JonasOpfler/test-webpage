@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #151515;
+  background-color:rgb(17 24 39) /*Background main page chage HERE */
 }
 
 :root {
@@ -67,6 +67,21 @@ body {
     #7deb99 55.12%,
     #5ce67f 71.54%,
     #33cf48 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.red-text-gradient {
+  background: linear-gradient(
+    rgb(243, 83, 112) 0.89%,
+    #f3688b 17.23%,
+    #eb5858 42.04%,
+    #fc0000 55.12%,
+    #e65c5c 71.54%,
+    #cf3333 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
